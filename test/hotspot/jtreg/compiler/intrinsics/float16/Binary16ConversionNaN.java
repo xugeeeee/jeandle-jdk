@@ -35,6 +35,7 @@
  * @run main/othervm -Xbootclasspath/a:. -XX:+UnlockDiagnosticVMOptions -XX:+WhiteBoxAPI
  *                   -Xmixed -XX:-BackgroundCompilation -XX:-UseOnStackReplacement
  *                   -XX:CompileThresholdScaling=1000.0 Binary16ConversionNaN
+ *                   -XX:DisableIntrinsic=_float16ToFloat,_floatToFloat16 Binary16ConversionNaN
  */
 
 /*
